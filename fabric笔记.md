@@ -1,4 +1,15 @@
 
+### output_prefix
+输出服务器返回结果，默认True，[user@host:port] out: 
+```
+env.output_prefix = False
+```
+### put
+传输本地文件到服务器 
+```
+put(localfile,remotefile)
+```
+
 ### 程序文件test.py
 ```
 from fabric.api import cd,run,env
