@@ -1,13 +1,13 @@
 
 ### OSI七层模型：
 ```
-第七层：应用层
-第六层：表示层
-第五层：会话层："GET/HTTP/1.0\n\n"
-第四层：传输层：TCP()、UDP()、ICMP()
-第三层：网络层：IP()
-第二层：数据链路层：Ether()
-第一层：物理层
+第七层：应用层: HTTP、TFTP, FTP, NFS, WAIS、SMTP
+第六层：表示层: Telnet, Rlogin, SNMP, Gopher
+第五层：会话层: SMTP, DNS
+第四层：传输层: TCP, UDP
+第三层：网络层: IP, ICMP, ARP, RARP, AKP, UUCP
+第二层：数据链路层: FDDI, Ethernet, Arpanet, PDN, SLIP, PPP
+第一层：物理层: IEEE 802.1A, IEEE 802.2到IEEE 802.11
 ```
 
 ### 写在开头
